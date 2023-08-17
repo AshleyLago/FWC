@@ -49,31 +49,34 @@ main {
   /* outline: 1px solid red; */
 }
 /* I wrote this myWhyButton below */
-#etsyButton {
+.etsyButton {
   color: rgba(9,135,214,255);
   font-size: 20px;
   border: 1px solid rgba(2,16,55,255);
   padding: 5px 20px;
   border-radius: 5px;
   background-color: rgba(9,135,214, 0.15);
+  text-decoration: none;
 }
 
-#instaButton {
+.instaButton {
   color: rgba(9,135,214,255);
   font-size: 20px;
   border: 1px solid rgba(2,16,55,255);
   padding: 5px 20px;
   border-radius: 5px;
   background-color: rgba(9,135,214, 0.15);
+  text-decoration: none;
 }
 
-#twitButton {
+.twitButton {
   color: rgba(9,135,214,255);
   font-size: 20px;
   border: 1px solid rgba(2,16,55,255);
   padding: 5px 20px;
   border-radius: 5px;
   background-color: rgba(9,135,214, 0.15);
+  text-decoration: none;
 }
 
 
@@ -82,20 +85,4 @@ main {
   width: 100%;
   margin: 10px 0 10px;
   display: none;
-}
-
-.animate {
-  animation: fadeIn 1s ease-in;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
 }
